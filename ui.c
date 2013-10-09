@@ -576,9 +576,7 @@ void ui_init(void)
     pthread_create(&t, NULL, progress_thread, NULL);
     pthread_create(&t, NULL, input_thread, NULL);
 
-    ui_print("Disene修改编译\n");
-    ui_print("请大家多多支持安智网\n");
-    ui_print("bbs.anzhi.com\n");
+    ui_print("欢迎使用！\n");
 }
 
 char *ui_copy_image(int icon, int *width, int *height, int *bpp) {
