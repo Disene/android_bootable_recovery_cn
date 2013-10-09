@@ -413,8 +413,6 @@ prepend_title(char** headers) {
     char* title[] = { EXPAND(RECOVERY_VERSION),
                       "音量键上下选择，电源键确认",
                       "",
-                      "Disene修改编译",
-                      "新浪微博：Disene",
                       "",
                       NULL };
 
